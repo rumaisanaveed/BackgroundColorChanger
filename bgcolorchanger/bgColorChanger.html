@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Background color changer</title>
+  </head>
+  <body>
+    <script>
+      const bgColor = [
+        "blue",
+        "pink",
+        "yellow",
+        "red",
+        "green",
+        "orange",
+        "purple",
+      ];
+      document.body.style.background =
+        bgColor[Math.floor(Math.random() * bgColor.length)];
+      //let n = Math.random() * bgColor.length;
+      //document.write(Math.floor(n));
+    </script>
+  </body>
+</html>
